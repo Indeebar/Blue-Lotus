@@ -12,11 +12,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('D:/AIML/Complete-Machine-Learning-Course-Part-5-main/5.2. Multiple Disease Prediction System/diabetes_model.sav', 'rb'))
+diabe# loading the saved models
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('D:/AIML/Complete-Machine-Learning-Course-Part-5-main/5.2. Multiple Disease Prediction System/heart_disease_model.sav', 'rb'))
-
-parkinsons_model = pickle.load(open('D:/AIML/Complete-Machine-Learning-Course-Part-5-main/5.2. Multiple Disease Prediction System/parkinsons_model.sav', 'rb'))
 
 
 
